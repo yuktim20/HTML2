@@ -1,0 +1,83 @@
+<!-- ---->>
+<!-- .section { -->
+  <!-- height: 800px;                         /* Har block ki lambai 800px hogi (scroll kar sake) */ -->
+  <!-- background-size: cover;               /* Photo poore background me fail jaayegi */ -->
+  <!-- background-position: center;          /* Photo bilkul beech me dikhayegi */ -->
+  <!-- background-attachment: fixed;         /* Photo ek jagah chipak ke rahegi, scroll par nahi hilegi */ -->
+  <!-- display: flex;                        /* Andar ka text sahi tarike se set karne ke liye ye lagaya */ -->
+  <!-- align-items: center;                  /* Text upar–neeche beech me aayega */ -->
+  <!-- justify-content: center;              /* Text left–right beech me aayega */ -->
+  <!-- text-align: center;                  /* Text sidha center me likha dikhega */ -->
+  <!-- padding: 20px;                        /* Andar thoda space milega taaki chipka chipka na lage */ -->
+<!-- } -->
+
+
+
+<!-- ---->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scroll Background Change (CSS Only)</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    section {
+      height: 800px;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 120%;
+      /* font-family: sans-serif; */
+      /* text-shadow: 1px 1px 5px rgb(81, 255, 0); */
+    }
+
+    .bg1 {
+      background-image: url('/image\ copy.png');
+      color: yellow;
+    }
+
+    .bg2 {
+      background-image: url('/image\ copy\ 2.png');
+    }
+
+    .bg3 {
+      background-image: url('/image\ copy\ 3.png');
+    }
+
+    .bg4 {
+      background-image: url('/image\ copy\ 7.png');
+    }
+    .io1 {
+        background: rgba(189, 1, 1, 0.5);
+        padding: 30px;
+        border-radius: 0px;
+        text-align: center;
+        }
+
+  </style>
+</head>
+<body>
+
+  <section class="bg1">
+  <div class="io1">
+    <h1>Hello</h1>
+    <p>Section 1</p>
+  </div>
+</section>
+
+  <section class="bg2">Section 2</section>
+  <section class="bg3">Section 3</section>
+  <section class="bg4">Section 4</section>
+  
+
+</body>
+</html>

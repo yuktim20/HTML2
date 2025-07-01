@@ -1,0 +1,254 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image:white;
+    opacity: 1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar{
+    background-color: bisque;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 3px solid ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    position: fixed;
+    width: 1000px;
+    display: flex;
+    top: 0;
+    right: 0;left: 0;
+    
+}
+.navbar .logo img{
+    font-size: 30px;
+    color: rgb(82, 48, 4);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items:normal;
+    align-content: flex-start;
+}
+.nav a {
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(82, 48, 4);
+}
+.nav a:hover{
+    background-color:beige;
+    padding: 10px;
+    border-radius: 20px;
+}
+    * {
+      margin: 0;
+      padding: 0;
+     
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    .section {
+      height: 800px;
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    
+
+    .bg4 {
+      background-image: url('/image\ copy\ 3.png');
+    }
+
+    
+
+   
+.box{
+    
+    display: inline-flex;
+    border-bottom: 2px solid;
+    
+}
+.box img{
+    width: 500px;
+    margin: 30px;
+    border-radius: 100px;
+    transition:border-radius 2s;
+   
+}
+.box img:hover{
+    content: url("/image\ copy\ 8.png");
+    width: 500px;
+    margin: 30px;
+    border-radius: 50%;
+}
+.box div{
+    margin: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+
+.Pricing{
+    display: grid;
+    display: flex;
+    border-bottom: 2px solid;
+    background-color: rgb(23, 82, 192);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    
+
+}
+.price h1{
+    margin: 10px;
+    text-align: center;
+    color: black;
+}
+.price li{
+    list-style:inside;
+    padding: 2px;
+    color: black;
+
+}
+.price .btn{
+    padding: 5px;
+    margin-top: 6px;
+    background-color: rgb(209, 130, 33);
+    justify-content: center;
+    align-items: center;
+}
+.price2 h1{
+    margin: 10px;
+    text-align: center;
+}
+.price2 li{
+    list-style:inside;
+    padding: 2px;
+
+}
+.price2 .btn2{
+    padding: 5px;
+    margin-top: 6px;
+    background-color: rgb(209, 130, 33);
+    justify-content: center;
+    align-items: center;
+}
+.Pricing .price{
+    padding:30px;
+    margin:20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.Pricing .price2{
+    padding:20px;
+    margin:20px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+.photo{
+    display: flex;
+    background-color: rgb(41, 40, 40);
+    padding: 20px;
+}
+.photo .img1{
+     width: 300px;
+     background-image: url(/image\ copy\ 2.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: 18px;
+     border: 2px solid;
+     border-color: black;
+     height: 200px;
+}
+
+.photo .img1:hover{
+    background-image: url(/ai.gif);
+
+}
+.photo .img2{
+     width: 300px;
+     background-image: url(/image\ copy\ 3.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: 18px;
+     border: 2px solid;
+     border-color: black;
+     height: 200px;
+}
+.photo .img2:hover{
+    background-image: url(/ai\ \(1\).gif);
+}
+.photo .img3{
+     width: 300px;
+     background-image: url(/image\ copy\ 4.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: 18px;
+     border: 2px solid;
+     border-color: black;
+     height: 200px;
+}
+.photo .img3:hover{
+    background-image: url(/ai\ \(2\).gif);
+}
+.photo .img4{
+     width: 300px;
+     background-image: url(/image\ copy\ 5.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: 18px;
+     border: 2px solid;
+     border-color: black;
+     height: 200px;
+}
+.photo .img4:hover{
+    background-image: url(/Azure-AI-brain.gif);
+}
+.photo .img5{
+     width: 300px;
+     background-image: url(/image\ copy\ 6.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: 18px;
+     border: 2px solid;
+     border-color: black;
+     height: 200px;
+}
+.photo .img5:hover{
+    background-image: url(/__-1.gif);
+}
+.photo .img6{
+     width: 300px;
+     background-image: url(/image\ copy\ 7.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin: 18px;
+     border: 2px solid;
+     border-color: black;
+     height: 200px;
+}
+.photo .img6:hover{
+    background-image: url(/ai\ \(3\).gif);
+}
+footer{
+    border-top: 3px solid;
+    background-color: burlywood;
+    color: black;
+}

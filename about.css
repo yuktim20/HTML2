@@ -1,0 +1,26 @@
+body{
+    background-color: bisque;
+}
+div{
+    border: 2px solid black;
+    
+    padding: 40px;
+    background-color: white;
+    animation-name: sample;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes sample{
+    from{
+        border-radius: 0%;
+
+    }
+    to{
+        border-radius: 100%;
+    }
+}
+
+h1{
+    text-align: center;
+}
